@@ -23,6 +23,7 @@ describe('My First test suite ',function(){
     cy.get('.brand').should('have.text','GREENKART')
     cy.get('.brand').then(function(logoelement){
         cy.log(logoelement.text())
+        cy.log(logoelement.text())
     
     }
     )
